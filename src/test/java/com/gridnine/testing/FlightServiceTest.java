@@ -15,7 +15,6 @@ public class FlightServiceTest {
     Flight flightFour;
     List<Flight> allFlights;
 
-
     @BeforeEach
     void init () {
         Segment firstFlightSegment = new Segment(LocalDateTime.now().plusHours(1L), LocalDateTime.now().plusHours(3L));
